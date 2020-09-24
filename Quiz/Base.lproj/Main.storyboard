@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -157,7 +157,7 @@
                         <outlet property="choiceButton2" destination="o5S-tR-ckh" id="Mvl-3l-yKf"/>
                         <outlet property="choiceButton3" destination="sJX-PC-Qnb" id="rUl-A8-7BH"/>
                         <outlet property="quizTextView" destination="MTi-px-Fon" id="iNb-XR-bHV"/>
-                        <segue destination="dMf-hH-Vgd" kind="presentation" identifier="ToResultView" id="70f-ji-5zl"/>
+                        <segue destination="dMf-hH-Vgd" kind="presentation" identifier="toResultView" id="70f-ji-5zl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcn-8A-dQI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

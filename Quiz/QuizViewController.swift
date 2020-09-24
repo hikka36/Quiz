@@ -30,6 +30,7 @@ class QuizViewController: UIViewController {
         quizArray.append(["1985年、Appleを追放されたジョブズが立ち上げた会社名の正式表記は？","NEXt, Inc","NExT, Inc","NeXT, Inc",3])
         quizArray.append(["2015年9月30日にリリースされたOSXの名前は？","El Captain","El Capitan","El Capital",2])
         quizArray.append(["Apple WatchはiPhoneとどんな通信方式でペアリングされる？","FM電波","Wi-Fi","Bluetooth",3])
+        quizArray.append(["ios12で新たに追加された昨日は？","ウィジェット","ダークモード","スクリーンタイム",3])
         
         quizArray.shuffle()
         choiceQuiz()
@@ -52,7 +53,7 @@ class QuizViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "ToResultView" {
+        if segue.identifier == "toResultView" {
             let resultViewController = segue.destination as! ResultViewController
             resultViewController.CorrectAnswer = self.CorrectAnswer
         }
