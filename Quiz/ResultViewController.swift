@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        resultLabel.text = String(CorrectAnswer)
+        resultLabel.text = "\(String(CorrectAnswer))問正解！"
 
         // Do any additional setup after loading the view.
     }
